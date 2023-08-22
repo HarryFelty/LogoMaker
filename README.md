@@ -21,6 +21,13 @@ N/A
 
 This project can be used from the command line using node.js. It can be used to quickly generate an SVG file with a triangle, square, or circle and text. It also allows for some customization with the colors.
 
+Repo: https://github.com/HarryFelty/LogoMaker
+
+Video Link: https://watch.screencastify.com/v/yB8izdPqzLWt4iVttsgf
+
+![Uploading Untitled_ Aug 21, 2023 10_55 PM.gif…]()
+
+
 ## Credits
 
 N/A
