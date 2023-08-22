@@ -1,9 +1,9 @@
 import inquirer from "inquirer";
-const fs = require("fs");
-let SVG = require("./lib/svg");
+import fs from "fs/promises";
 
+import SVG from "./lib/svg.js";
 
-let { shape, color, text, txtColor } = await inquirer
+inquirer
     .prompt([
         {
             type: 'list',
@@ -30,12 +30,15 @@ let { shape, color, text, txtColor } = await inquirer
             name: 'txtColor',
             message: "Enter color of text.",
         },
-    ])
+    ]).then((res) => {
+        let newSVG = new SVG(res.shape, res.color, res.text, res.txtColor);
 
-let example = new SVG(shape, color, text, txtColor);
+        fs.writeFile("shape.svg", newSVG.markup, function (err) {
+            if (err)
+                console.log(err);
 
-fs.writeFile("shape.svg", example.createShape, function (err) {
-    if (err) {
-        console.log(err);
-    }
-})
+        })
+    })
+
+
+
