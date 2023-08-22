@@ -33,7 +33,7 @@ inquirer
     ]).then((res) => {
         let newSVG = new SVG(res.shape, res.color, res.text, res.txtColor);
 
-        fs.writeFile("shape.svg", newSVG.markup, function (err) {
+        fs.writeFile("logo.svg", newSVG.markup, function (err) {
             if (err)
                 console.log(err);
 
