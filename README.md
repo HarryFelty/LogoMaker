@@ -25,7 +25,8 @@ Repo: https://github.com/HarryFelty/LogoMaker
 
 Video Link: https://watch.screencastify.com/v/yB8izdPqzLWt4iVttsgf
 
-![Uploading Untitled_ Aug 21, 2023 10_55 PM.gif…]()
+
+![Untitled_ Aug 21, 2023 10_55 PM](https://github.com/HarryFelty/LogoMaker/assets/125701349/bebaca61-f8aa-4f41-a491-1927df4db7f4)
 
 
 ## Credits
